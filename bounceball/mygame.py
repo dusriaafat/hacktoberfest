@@ -54,6 +54,7 @@ class PongGame(Widget):
         self.ball1.move()
         self.ball2.move()
         # bounce off top and bottom
+        #ball directions
         #ball0
         if (self.ball.y  < 0) :
             self.ball.velocity_y *= -1.01
